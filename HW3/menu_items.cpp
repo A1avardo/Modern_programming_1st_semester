@@ -4,16 +4,16 @@
 
 
 const MVlad::MenuItem MVlad::TRAVEl_DV1 = {
-	"1 - Владивосток",  MVlad::travel_dv1, &MVlad::TRAVEl_DV
+	"1 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",  MVlad::travel_dv1, &MVlad::TRAVEl_DV
 };
 const MVlad::MenuItem MVlad::TRAVEl_DV2 = {
-	"2 - Сахалин",  MVlad::travel_dv2, &MVlad::TRAVEl_DV
+	"2 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ",  MVlad::travel_dv2, &MVlad::TRAVEl_DV
 };
 const MVlad::MenuItem MVlad::TRAVEl_DV3 = {
-	"3 - Хабаровск",  MVlad::travel_dv3, &MVlad::TRAVEl_DV
+	"3 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",  MVlad::travel_dv3, &MVlad::TRAVEl_DV
 };
 const MVlad::MenuItem MVlad::TRAVEl_DV_EXIT = {
-	"0 - Выйти в предудыщее меню",  MVlad::travel_dv_exit, &MVlad::TRAVEl_DV
+	"0 - пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ",  MVlad::travel_dv_exit, &MVlad::TRAVEl_DV
 };
 
 namespace {
@@ -30,16 +30,16 @@ namespace {
 
 
 const MVlad::MenuItem MVlad::TRAVEl_DV = {
-	"1 - Дальний Восток",  MVlad::show_menu, &MVlad::TRAVEl, travel_dv_children, travel_dv_size
+	"1 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ",  MVlad::show_menu, &MVlad::TRAVEl, travel_dv_children, travel_dv_size
 };
 const MVlad::MenuItem MVlad::TRAVEl_SIB = {
-	"2 - Алтай",  MVlad::travel_sib, &MVlad::TRAVEl
+	"2 - пїЅпїЅпїЅпїЅпїЅ",  MVlad::travel_sib, &MVlad::TRAVEl
 };
 const MVlad::MenuItem MVlad::TRAVEl_GOLDR= {
-	"3 - Золотое Кольцо России",  MVlad::travel_goldr, &MVlad::TRAVEl
+	"3 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ",  MVlad::travel_goldr, &MVlad::TRAVEl
 };
 const MVlad::MenuItem MVlad::TRAVEl_GO_BACK = {
-	"0 - Выйти в главвное меню",  MVlad::travel_go_back, &MVlad::TRAVEl
+	"0 - пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ",  MVlad::travel_go_back, &MVlad::TRAVEl
 };
 
 namespace {
@@ -57,11 +57,11 @@ namespace {
 
 
 	const MVlad::MenuItem MVlad::TRAVEl = {
-		"1- Путешествовать по России", MVlad::show_menu, &MVlad::MAIN, travel_children, travel_size
+		"1- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ", MVlad::show_menu, &MVlad::MAIN, travel_children, travel_size
 	};
 
 	const MVlad::MenuItem MVlad::EXIT = {
-		"0 - Закончить путешествие", MVlad::exit, &MVlad::MAIN
+		"0 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ", MVlad::exit, &MVlad::MAIN
 	};
 
 	namespace {

@@ -13,13 +13,13 @@ const MVlad:: MenuItem* MVlad::show_menu(const MenuItem* current) {
 
     switch (level) {
     case 0:
-        std::cout << "Главное меню\n";
+        std::cout << "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\n";
         break;
     case 1:
-        std::cout << "Второй уровень меню\n";
+        std::cout << "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\n";
         break;
     case 2:
-        std::cout << "Третий уровень Дальний Восток\n";
+        std::cout << "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ\n";
         break;
     default:
         break;
