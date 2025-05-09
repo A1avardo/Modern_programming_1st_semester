@@ -1,6 +1,6 @@
 #include <iostream>
 #include "sorting.hpp"
-#include "output.hpp
+#include "output.hpp"
 
 int main() {
 
