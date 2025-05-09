@@ -7,7 +7,6 @@
 
 
 int main() {
-	std::setlocale(LC_ALL, "");
 
 	const MVlad::MenuItem* current = &MVlad::MAIN;
 	do {
