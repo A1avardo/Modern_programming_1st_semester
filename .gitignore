@@ -1,2 +1,18 @@
-build/
+/build_*/
+/build/
+build_*/
 lib/
+
+# object files, executables
+*.exe
+*.o
+*.obj
+*.out
+*.log
+
+# CMake-generated
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
